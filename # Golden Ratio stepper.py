@@ -24,13 +24,13 @@ while True:
     number = input("Enter the base number, or 'q' to quit. ")
     
     if number.lower() == "q":
-        print("Goodbye pal!")
+        print("Goodbye, pal!")
         exit()
     
     while not is_number(number):
         number = input("That was not a valid number. Enter the base number, or 'q' to quit. ")
         if number.lower() == "q":
-            print("Goodbye pal!")
+            print("Goodbye, pal!")
             exit()
     
     ratio_calc(number)
